@@ -108,20 +108,20 @@ After saving, add the correct profile of your user or add a permission set that 
 
 #### Option 2 - Running locally
 
--   Create a file ".env" in the root directory with the following contents
+-   Create a file ".env" in the root directory (Directory in which above git files are present) -  with the following contents
     ```
     PORT=8080
     CALLBACK_URL=https://localhost:8081/services/oauth2/success
     PERSIST=true
-    CLIENT_ID=3MVG9Rd3qC6oMalWJCSJXAUD00hp7CXsrAV._dFrbch4jYXUOu_kAuP0uuRsrzMSSwYqldy5qdylySUwZvkn3
-    CLIENT_SECRET=B2ABE781A2EA7927084257478BB783074DD7E79A220758439D5F575C4FC6B7BF
-    BASE_URL=https://nicolasvandenbossche-dev-ed.my.salesforce.com
-    USERNAME=n.vanden.bossche@accenture.com
-    API_VERSION=57.0
+    CLIENT_ID=3MVG9GCMQoQ6rpzTII.7JRn6yhPNH93JMjHsGubJZMDoS8SfDIUNFQ6y7n.cutIwEAsuk1P4HY7Bg8Cvppxu9
+    CLIENT_SECRET=BFD8009FC4BCAF9E71E64AE4A2B879109807591ADC47E5A4121082F774F2DDCD
+    BASE_URL=https://globant32-dev-ed.develop.my.salesforce.com
+    USERNAME=swapnilmorecta@gmail.com.oauth
+    API_VERSION=61.0
     ```
 -   Open a terminal in the root directory and run the following commands:
     ```
-    npm install
+    npm install or sudo npm install
     node -r dotenv/config Server.js
     ```
 
