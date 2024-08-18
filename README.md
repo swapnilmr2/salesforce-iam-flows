@@ -129,3 +129,7 @@ After saving, add the correct profile of your user or add a permission set that 
 
 Navigate to your app, either on Heroku or locally (via https://localhost:8081). Go to the flow you're interested in, read the description and
 click the Launch button to execute.
+
+## Step 4
+SAML Assertion Flow : Before starting this flow, make sure you go to https://axiomsso.herokuapp.com/RequestSamlResponse.action to generate a SAML response. Paste the plain-text version in a file at /data/authFlows.json",
+        
