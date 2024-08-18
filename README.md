@@ -131,5 +131,7 @@ Navigate to your app, either on Heroku or locally (via https://localhost:8081). 
 click the Launch button to execute.
 
 ## Step 4
-SAML Assertion Flow : Before starting this flow, make sure you go to https://axiomsso.herokuapp.com/RequestSamlResponse.action to generate a SAML response. Paste the plain-text version in a file at /data/authFlows.json",
+SAML Assertion Flow : Before starting this flow, make sure you go to https://axiomsso.herokuapp.com/RequestSamlResponse.action to generate a SAML response. Paste the plain-text version in a file at /data/authFlows.json", 
+Copy Plain Text SAML Response: in axiomSamlAssertion.xml and remove spaces and restart server. 
+https://axiomsso.herokuapp.com/GenerateSamlResponse.action 
         
