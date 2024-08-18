@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><saml1p:Response xmlns:saml1p="urn:oasis:names:tc:SAML:1.0:protocol" IssueInstant="2024-08-18T05:06:51.686Z" MajorVersion="1" MinorVersion="1" ResponseID="_230a9a05-3235abe3"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"/><ds:Reference URI="#_230a9a05-3235abe3"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>loCb2fhV7iIEHcL6E/Y1Wc6Y/Eg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>BY+fMdaiK2t5RiOUV3wHatyZo9qTdEvmob+qpdFzg0S0UQeVHbl7JQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID0zCCA5GgAwIBAgIEF/uFITALBgcqhkjOOAQDBQAwgboxCzAJBgNVBAYTAlVTMQswCQYDVQQI
+EwJDQTEWMBQGA1UEBxMNU2FuIEZyYW5jaXNjbzESMBAGA1UEChMJQXhpb20gU1NPMVEwTwYDVQQL
+E0hGT1IgREVNT05TVFJBVElPTiBQVVJQT1NFUyBPTkxZLiBETyBOT1QgVVNFIEZPUiBQUk9EVUNU
+SU9OIEVOVklST05NRU5UUy4xHzAdBgNVBAMTFkF4aW9tIERlbW8gQ2VydGlmaWNhdGUwHhcNMTQw
+NjIwMDQzMDI3WhcNNDExMTA1MDQzMDI3WjCBujELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYw
+FAYDVQQHEw1TYW4gRnJhbmNpc2NvMRIwEAYDVQQKEwlBeGlvbSBTU08xUTBPBgNVBAsTSEZPUiBE
+RU1PTlNUUkFUSU9OIFBVUlBPU0VTIE9OTFkuIERPIE5PVCBVU0UgRk9SIFBST0RVQ1RJT04gRU5W
+SVJPTk1FTlRTLjEfMB0GA1UEAxMWQXhpb20gRGVtbyBDZXJ0aWZpY2F0ZTCCAbgwggEsBgcqhkjO
+OAQBMIIBHwKBgQD9f1OBHXUSKVLfSpwu7OTn9hG3UjzvRADDHj+AtlEmaUVdQCJR+1k9jVj6v8X1
+ujD2y5tVbNeBO4AdNG/yZmC3a5lQpaSfn+gEexAiwk+7qdf+t8Yb+DtX58aophUPBPuD9tPFHsMC
+NVQTWhaRMvZ1864rYdcq7/IiAxmd0UgBxwIVAJdgUI8VIwvMspK5gqLrhAvwWBz1AoGBAPfhoIXW
+mz3ey7yrXDa4V7l5lK+7+jrqgvlXTAs9B4JnUVlXjrrUWU/mcQcQgYC0SRZxI+hMKBYTt88JMozI
+puE8FnqLVHyNKOCjrh4rs6Z1kW6jfwv6ITVi8ftiegEkO8yk8b6oUZCJqIPf4VrlnwaSi2ZegHtV
+JWQBTDv+z0kqA4GFAAKBgQCXr1mp4UvByY6dGbDOyq3wMs6O7MCxmEkU2x32AkEp6s7Xfiy3MYwK
+wZQ4sL4BmQYzZ7QOXPP8dKgrKDQKLk9tXWOgvIoOCiNAdQDYlRm2sYgrI2SUcyM1bKDqLwDD8Z5O
+oLeuQAtgMfAq/f1C6nREWrQudPxOwaoNdHkYcR+066MhMB8wHQYDVR0OBBYEFE2JAc97wfHK5b42
+nKbANn4SMcqcMAsGByqGSM44BAMFAAMvADAsAhR+Cjvp8UwNgKHfx2PWJoRi0/1q8AIUNhTXWlGz
+J3SdBlgRsdFgKyFtcxE=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><saml1p:Status><saml1p:StatusCode Value="saml1p:Success"/></saml1p:Status><saml1:Assertion xmlns:saml1="urn:oasis:names:tc:SAML:1.0:assertion" AssertionID="_5266f119-33884ac6" IssueInstant="2024-08-18T05:06:51.685Z" MajorVersion="1" MinorVersion="1"><saml1:Conditions NotBefore="2024-08-18T05:06:51.685Z" NotOnOrAfter="2024-08-18T05:07:51.685Z"><saml1:AudienceRestrictionCondition><saml1:Audience>https://saml.salesforce.com</saml1:Audience></saml1:AudienceRestrictionCondition></saml1:Conditions><saml1:AuthenticationStatement AuthenticationInstant="2024-08-18T05:06:51.685Z" AuthenticationMethod="urn:oasis:names:tc:SAML:1.0:am:unspecified"><saml1:Subject><saml1:NameIdentifier>swapnilmorecta@gmail.com.oauth</saml1:NameIdentifier><saml1:SubjectConfirmation><saml1:ConfirmationMethod>urn:oasis:names:tc:SAML:1.0:cm:bearer</saml1:ConfirmationMethod></saml1:SubjectConfirmation></saml1:Subject></saml1:AuthenticationStatement></saml1:Assertion></saml1p:Response>
